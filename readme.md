@@ -1,4 +1,4 @@
-#jquery bounce scroll
+# jquery bounce scroll
 
 Plugin work only vertical scroll
 
@@ -28,7 +28,7 @@ Semaphore lock:
 ```javascript
 let lockObject = {
     lock: true,
-	isLock: function() { // semaphore must implement method `isLock`
+    isLock: function() { // semaphore must implement method `isLock`
         return this.lock;
     }
 };
